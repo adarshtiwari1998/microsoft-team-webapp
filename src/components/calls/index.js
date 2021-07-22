@@ -1,14 +1,14 @@
 import React from 'react';
 import "./calls.css";
-import Header from '../common/header'
-import Sidebar from '../common/sidebar'
-import LeftFold from './left-fold'
-import RightFold from './right-fold'
+import Sidebar from '../common/sidebar';
+import LeftFold from './left-fold';
+import RightFold from './right-fold';
+import Header from '../common/header';
 
 function Calls() {
     return (
         <div className="calls-container">
-            <Header />
+          <Header />
             <div className="calls-body">
                 <div className="calls-sidebar">
                     <Sidebar />

@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
-    height: 100vh !important;
+    height: 100%;
     background-color: #e1e1e1;
-    z-index: -2;
+    z-index: 0;
 }

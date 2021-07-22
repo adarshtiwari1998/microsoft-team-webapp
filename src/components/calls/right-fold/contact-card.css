@@ -7,6 +7,12 @@
     border-radius: 8px;
 }
 
+@media screen and (max-width: 762px) {
+    .contact-card {
+        width: 100%;
+    }
+}
+
 .contact-avatar {
     height: 80px;
 }

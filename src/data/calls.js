@@ -59,7 +59,7 @@ export const CallsContact = [
     },
     {
         id:2,
-        name: "Akash",
+        name: "Akash Mishra",
         type: "Student",
         avatar: require(".././assets/images/left-fold/student-1.png").default,
     },
@@ -76,15 +76,33 @@ export const CallsContact = [
         avatar: require(".././assets/images/left-fold/team-2.png").default,
     },
     {
-        id:4,
+        id:5,
         name: "Abhishek Gupta",
         type: "Admin",
         avatar: require(".././assets/images/left-fold/admin-1.png").default,
     },
     {
-        id:5,
-        name: "Akash Gupta",
+        id:6,
+        name: "Shikha Rawat",
         type: "Student",
         avatar: require(".././assets/images/left-fold/student-2.png").default,
+    },
+    {
+        id:7,
+        name: "Shubham Patel",
+        type: "Student",
+        avatar: require(".././assets/images/left-fold/student-1.png").default,
+    },
+    {
+        id:8,
+        name: "Arivind Gupta",
+        type: "Staff",
+        avatar: require(".././assets/images/left-fold/team-1.png").default,
+    },
+    {
+        id:9,
+        name: "Sourabh Singh",
+        type: "Staff",
+        avatar: require(".././assets/images/left-fold/student-1.png").default,
     },
 ]

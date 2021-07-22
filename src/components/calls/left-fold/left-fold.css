@@ -2,8 +2,8 @@
     height: 100% !important;
     width: 100%;
     background-color: #ebebeb;
-    box-shadow: 5px 0px 6px #dbdbdb, -5px 0px 6px #dbdbdb;
-    z-index: -1;
+    box-shadow: 5px 5px 6px #dbdbdb, -5px 5px 6px #dbdbdb;
+    z-index: 7;
 }
     .leftFold-menu {
     height: 47%;

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Calls from './components/calls';
 
@@ -11,4 +10,4 @@ function App() {
 
   }
 
-export default App
+export default App;
