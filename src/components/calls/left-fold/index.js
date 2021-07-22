@@ -1,10 +1,12 @@
 import React from 'react';
-import { CallsMenu } from '../../../data/calls';
+import { CallsMenu, DialerList } from '../../../data/calls';
+import DialerItem from './dialer-item';
 import "./left-fold.css";
 import MenuItem from './menu-item';
 
 function LeftFold() {
     const menu = CallsMenu;
+    const dialerList = DialerList;
 
     return (
         <div className="leftFold">
@@ -15,9 +17,7 @@ function LeftFold() {
             <div className="menu-items">
             {menu.map((item) => {
             return (
-               <div>
                  <MenuItem item={item} isActive={true} />
-               </div>
                );
             })}
             </div>
@@ -29,6 +29,14 @@ function LeftFold() {
             </div>
             <div className="dialer-suggested" >
                <label className="suggested-label">Suggested Name</label>
+               <div className="suggested-list">
+                {dialerList.map((item) => {
+                    return (
+                         <DialerItem item={item} />
+                    );
+                })}
+               </div>
+
             </div>
         </div>
         </div>
