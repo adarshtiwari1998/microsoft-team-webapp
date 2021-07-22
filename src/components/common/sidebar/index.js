@@ -11,13 +11,12 @@ function Sidebar() {
     return (
         <div className="sidebar">
           <div className="sidebar-top">
-            <div>
                 {topOptions.map((option) => {
                     return (
                      <SidebarOption option={option} isActive={option.name === "Calls"?true:false} />
                     )
                 })}
-            </div>
+           
             <div>
               <SidebarOption option={more}/>
             </div>
@@ -25,10 +24,8 @@ function Sidebar() {
           <div className="sidebar-bottom">
              {bottomOptions.map((option) => {
                  return (
-                     <div>
-                       <SidebarOption option={option} />
-                     </div>
-                 )
+                 <SidebarOption option={option} />
+                 );
              })}
           </div>
         </div>

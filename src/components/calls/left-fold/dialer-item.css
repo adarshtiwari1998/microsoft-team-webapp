@@ -1,12 +1,12 @@
-.item-avatar {
-    height: 32px;
-}
-
 .dialer-item {
     display: flex;
     width: 100%;
     flex: 1;
     padding: 6px 0px;
+}
+
+.item-avatar {  
+    height: 32px;
 }
 
 .item-info {
