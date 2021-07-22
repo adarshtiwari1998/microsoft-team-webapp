@@ -17,7 +17,7 @@ function LeftFold() {
             <div className="menu-items">
             {menu.map((item) => {
             return (
-                 <MenuItem item={item} isActive={true} />
+                 <MenuItem item={item} isActive={false} />
                );
             })}
             </div>
@@ -38,6 +38,14 @@ function LeftFold() {
                </div>
 
             </div>
+        </div>
+        <div className="dialer-bottom">
+          <div className="dialer-bottom-icon">
+          <i class="fi-rr-microphone"></i>
+          </div>
+          <div className="dialer-bottom-icon">
+          <i class="fi-rr-play-alt"></i>
+          </div>
         </div>
         </div>
     );

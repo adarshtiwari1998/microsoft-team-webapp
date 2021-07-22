@@ -1,0 +1,27 @@
+.leftFold {
+    height: 100vh !important;
+    width:100%;
+    z-index: -1;
+    background-color: #ebebeb;
+    box-shadow: 5px 0px 6px #dbdbdb, -5px 0px 6px #dbdbdb;
+}
+
+.leftFold-menu {
+height: 47%;
+padding: 16px 0px 0px 16px
+}
+
+.leftFold-dialer {
+    padding: 16px;
+    background-color: #fff;
+    position: relative;
+    height: 47%;
+}
+
+.menu-items {
+    margin-top: 16px;
+}
+.menu-label {
+    font-size: 20px;
+    font-weight: 700;
+}
